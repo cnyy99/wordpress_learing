@@ -1,0 +1,128 @@
+/*
+Theme Name: Jiu Perfect Theme
+Description: Jiu Perfect Child Theme of Twenty Twelve Theme from jiustore.com
+Theme URI: https://www.jiustore.com
+Author: Liu Wen Chang
+Author URI: https://www.jiustore.com
+Template: twentytwelve
+Version: 1.0.0
+*/
+@import url(../twentytwelve/style.css);
+
+h1{}
+h2{}
+h3{}
+
+body {
+    background: #B6BABD;
+}
+
+/* site title */
+.site-header h1 a {
+    font-family: 'Droid Serif', serif;
+    font-size: 2.57rem;
+    line-height: 2.57rem;
+    color: #25282B;
+}
+
+.site-header h2 {
+    font-family: Georgia, serif;
+    color: #7c7e81;
+    font-style: italic;
+    font-size: 1.15rem;
+}
+
+/* nav */
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+    border-bottom: .22rem solid #25282B;
+    border-top: none;
+}
+
+.main-navigation li a {
+    color: #7C7E81;
+    font-weight: bold;
+}
+
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a, .main-navigation .current_page_item > a, .main-navigation .current_page_ancestor > a{
+    color:#4281B3;
+}
+
+/* blog entry */
+.entry-header .entry-title {
+    font-family: 'Droid Serif', serif;
+    font-size: 2.57rem;
+    line-height: 2.85rem;
+}
+
+.entry-header .entry-title a {
+    color: #1E2124;
+}
+
+.entry-header .entry-title a:hover {
+    color: #4281B3;
+}
+
+.site-content article{
+    margin-bottom: 2.14286rem;
+    border-bottom: .22rem solid #25282B;
+}
+
+footer.entry-meta{
+    font-family:'Helvetica Neue', Helvetica, Arial;
+}
+
+/* widget */
+.widget-area {
+    border-left: .072rem solid #E8E8E8;
+    padding-left: 2.14rem;
+}
+
+.widget-area #s{
+    background: #F2F2F2;
+    border-top: .072rem solid #A3A3A3;
+    border-left: .072rem solid #A3A3A3;
+    border-right: none;
+    border-bottom: none;
+    border-radius: 0;
+}
+
+#searchsubmit{
+    background-color: #4281B3;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    color: #ffffff;
+    font-size: 1rem;
+    border: none;
+}
+
+.widget-area .widget{
+    border-bottom: .072rem solid #E8E8E8;
+    padding-bottom: 2.14rem;
+    margin-bottom: 2.14rem;
+}
+
+.widget-area .widget h3 {
+    color: #5F6163;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* misc */
+.more-link{
+    background-color: #4281B3;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1.43rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: auto;
+}
