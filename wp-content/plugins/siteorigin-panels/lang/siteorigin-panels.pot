@@ -1044,7 +1044,11 @@ msgstr ""
 msgid "A complete SiteOrigin Page Builder layout as a widget."
 msgstr ""
 
-#: inc/widgets/layout.php:94
+#: inc/widgets/layout.php:79
+msgid "This widget can currently only be used in the WordPress admin interface."
+msgstr ""
+
+#: inc/widgets/layout.php:104
 msgid "Open Builder"
 msgstr ""
 
