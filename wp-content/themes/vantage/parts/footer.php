@@ -17,5 +17,5 @@
 		</div><!-- #site-info -->
 	<?php endif; ?>
 
-	<?php echo apply_filters( 'vantage_footer_attribution', '<div id="theme-attribution">' . sprintf( __(' <a href="%s">Text-sentiment-analysis-BJFU</a> ', 'vantage'), 'http://localhost/testsite/') . '</div>' ) ?>	
+	<?php echo apply_filters( 'vantage_footer_attribution', '<div id="theme-attribution">' . sprintf( __(' <a href="%s">©Copyright          Text-sentiment-analysis-BJFU</a> ', 'vantage'), 'http://localhost/testsite/') . '</div>' ) ?>	
 </footer><!-- #colophon .site-footer -->
